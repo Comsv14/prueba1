@@ -39,8 +39,10 @@
         background-color: #555;
     }
 
+
+    /* FORMULARIOS */
     .pregunta {
-        
+
         text-align: center;
         box-shadow: 10px 5px 5px black;
         width: 100%;
@@ -48,8 +50,18 @@
 
     }
 
-    /* FORMULARIOS */
-    input {
+    .encuesta {
+        display: inline-block;
+        float: right;
+        border: 5px dotted black;
+        display: block;
+        width: 300px;
+        margin: 2%;
+        padding: 2%;
+
+    }
+
+    .encuesta input {
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         padding: 10px;
@@ -60,14 +72,14 @@
         border-radius: 5px;
     }
 
-    form {
+    .encuesta form {
 
         max-width: 500px;
         margin: 0 auto;
         margin-top: 10px;
     }
 
-    textarea {
+    .encuesta textarea {
         width: 300px;
         height: 150px;
         padding: 10px;
@@ -77,9 +89,30 @@
         /* Evita que el usuario pueda redimensionar el textarea */
     }
 
-    p {
+    .encuesta textarea p {
         text-align: center;
     }
+
+    /* .texto con texto principal pagina */
+.texto {
+    display: block; /*Cambiamos a  block para que los elementos dentro del div (el párrafo y la imagen) se coloquen uno debajo del otro en lugar de alinearse en fila. */
+    width: 65%;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid salmon;
+    border-radius: 5px;
+}
+
+.texto p {
+    margin-bottom: 20px; /* Añadido margen inferior para separar el texto de la imagen */
+}
+
+#medioambiente {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto; /* Centra la imagen */
+}
 </style>
 
 </html>
