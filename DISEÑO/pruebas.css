@@ -101,7 +101,7 @@
 
     /* .texto con texto principal pagina */
 .texto {
-    display: block; /*Cambiamos a  block para que los elementos dentro del div (el párrafo y la imagen) se coloquen uno debajo del otro en lugar de alinearse en fila. */
+    display: block ; /*Cambiamos a  block para que los elementos dentro del div (el párrafo y la imagen) se coloquen uno debajo del otro en lugar de alinearse en fila. */
     width: 65%;
     margin: 2%;
     padding: 2%;
@@ -119,10 +119,12 @@
 
 #medioambiente {
     display: block;
+    float: left;
     width: 500px;
     height: 300px;
     margin: 0 auto; /* Centra la imagen */
 }
+
 </style>
 
 </html>
